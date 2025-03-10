@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volume Booster</title>
+    <style>
+      body {
+        width: 200px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      .toggle {
+        margin-bottom: 15px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #3367d6;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Volume Booster</h2>
+    <div class="toggle">
+      <label>
+        <input type="checkbox" id="enableBooster" /> Enable Volume Booster
+      </label>
+    </div>
+    <button id="showFloatingUI">Show/Hide Floating UI</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
