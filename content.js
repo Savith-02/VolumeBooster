@@ -366,9 +366,9 @@
   }
 
   // Update gain value for all connected audio
-  function updateGain() {
-    updateAudioProcessingChain();
-  }
+  // function updateGain() {
+  //   updateAudioProcessingChain();
+  // }
 
   // Observe DOM for newly added audio/video elements
   function setupAudioObserver() {
