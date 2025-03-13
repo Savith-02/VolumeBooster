@@ -70,3 +70,33 @@ This extension:
 - Does not modify any website content except for audio volume
 - Works entirely locally in your browser
 - Requires only necessary permissions for audio processing
+
+## Permissions
+
+This extension requires the following permissions:
+
+- **activeTab**: Needed to access and modify audio elements on the current page
+- **scripting**: Required to inject the volume booster script into web pages
+- **storage**: Used to save your preferences between browser sessions, including:
+  - Volume level settings (up to 7x)
+  - Booster on/off status
+  - Floating UI visibility
+  - Sound quality settings (clarity enhancement and distortion protection)
+
+## How to Use
+
+1. Click the Volume Booster icon in your browser toolbar
+2. Toggle the booster on/off using the switch
+3. Adjust the volume level using the slider or preset buttons
+4. For advanced control, open the "Sound Quality Enhancer" section
+5. Choose content-specific presets for optimal sound
+
+## Tips for Best Sound Quality
+
+- For extremely high volume levels (6-7x), use the "Extreme Boost" preset
+- Adjust the Clarity Level to make quiet sounds more audible
+- Increase Protection Strength if you hear distortion at high volumes
+- Different content types benefit from different settings:
+  - Music works best with moderate clarity and light protection
+  - Voice content benefits from high clarity and medium protection
+  - Movies sound best with balanced settings

@@ -2,9 +2,8 @@
   "manifest_version": 3,
   "name": "Volume Booster",
   "version": "1.1",
-  "description": "Boost volume beyond the browser's maximum limits",
+  "description": "Boost volume up to 7x with advanced sound quality controls to prevent distortion. Includes clarity enhancement and content-specific presets.",
   "permissions": ["activeTab", "storage", "scripting"],
-  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
