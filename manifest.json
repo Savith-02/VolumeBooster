@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Volume Booster",
   "version": "1.1",
-  "description": "Boost volume up to 7x with advanced sound quality controls to prevent distortion. Includes clarity enhancement and content-specific presets.",
+  "description": "Boost volume up to 7x with advanced sound quality controls to prevent distortion",
   "permissions": ["activeTab", "storage", "scripting"],
   "action": {
     "default_popup": "popup.html",
